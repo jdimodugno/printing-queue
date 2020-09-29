@@ -13,25 +13,25 @@ namespace TestClient
         {
             List<Payload> payloads = new List<Payload>
             {
-                new Payload() { Path = "file1__prioritized__2", Priority = 2 },
-                new Payload() { Path = "file2__prioritized__6", Priority = 6 },
-                new Payload() { Path = "file3__prioritized__3", Priority = 3 },
-                new Payload() { Path = "file4__prioritized__2", Priority = 2 },
-                new Payload() { Path = "file5__prioritized__5", Priority = 5 },
-                new Payload() { Path = "file6__prioritized__7", Priority = 7 },
-                new Payload() { Path = "file7__prioritized__1", Priority = 1 },
-                new Payload() { Path = "file8__prioritized__5", Priority = 5 },
-                new Payload() { Path = "file9__prioritized__6", Priority = 6 },
-                new Payload() { Path = "file10__prioritized__2", Priority = 2 },
-                new Payload() { Path = "file11__prioritized__3", Priority = 3 },
-                new Payload() { Path = "file12__prioritized__2", Priority = 2 },
-                new Payload() { Path = "file13__prioritized__1", Priority = 1 },
-                new Payload() { Path = "file14__prioritized__10", Priority = 10 },
-                new Payload() { Path = "file15__prioritized__5", Priority = 5 },
-                new Payload() { Path = "file16__prioritized__2", Priority = 2 },
-                new Payload() { Path = "file17__prioritized__5", Priority = 5 },
-                new Payload() { Path = "file18__prioritized__4", Priority = 4 },
-                new Payload() { Path = "file19__prioritized__10", Priority = 10 }
+                new Payload() { Path = "file1-prioritized-2", Priority = 2 },
+                new Payload() { Path = "file2-prioritized-6", Priority = 6 },
+                new Payload() { Path = "file3-prioritized-3", Priority = 3 },
+                new Payload() { Path = "file4-prioritized-2", Priority = 2 },
+                new Payload() { Path = "file5-prioritized-5", Priority = 5 },
+                new Payload() { Path = "file6-prioritized-7", Priority = 7 },
+                new Payload() { Path = "file7-prioritized-1", Priority = 1 },
+                new Payload() { Path = "file8-prioritized-5", Priority = 5 },
+                new Payload() { Path = "file9-prioritized-6", Priority = 6 },
+                new Payload() { Path = "file10-prioritized-2", Priority = 2 },
+                new Payload() { Path = "file11-prioritized-3", Priority = 3 },
+                new Payload() { Path = "file12-prioritized-2", Priority = 2 },
+                new Payload() { Path = "file13-prioritized-1", Priority = 1 },
+                new Payload() { Path = "file14-prioritized-10", Priority = 10 },
+                new Payload() { Path = "file15-prioritized-5", Priority = 5 },
+                new Payload() { Path = "file16-prioritized-2", Priority = 2 },
+                new Payload() { Path = "file17-prioritized-5", Priority = 5 },
+                new Payload() { Path = "file18-prioritized-4", Priority = 4 },
+                new Payload() { Path = "file19-prioritized-10", Priority = 10 }
             };
 
             for (int i = 0; i < payloads.Count; i++)
